@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ProfileActivity">
+
+    <!-- App Name -->
+
+    <!-- Profile Image -->
+    <TextView
+        android:id="@+id/textViewBMBCartName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="666dp"
+        android:text="@string/medease"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="545dp"
+        android:background="@drawable/input_bg"
+        android:contentDescription="Profile Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewBMBCartName" />
+
+    <!-- Change Picture Button -->
+
+    <!-- Full Name EditText -->
+
+    <Button
+        android:id="@+id/btn_change_picture"
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="513dp"
+        android:background="@drawable/camera"
+        android:contentDescription="@string/camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_change_picture2"
+        android:layout_width="182dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="606dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="58dp"
+        android:text="Change Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Address EditText -->
+
+    <!-- Pin Code EditText -->
+    <EditText
+        android:id="@+id/editTextBMBAddress"
+        android:layout_width="340dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="351dp"
+        android:autofillHints=""
+        android:background="@drawable/input_bg"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/azure"
+        android:textColorHint="@color/beige"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBFullName" />
+
+    <EditText
+        android:id="@+id/editTextBMBFullName"
+        android:layout_width="340dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="428dp"
+        android:autofillHints=""
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/azure"
+        android:textColorHint="@color/beige"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_change_picture" />
+
+    <EditText
+        android:id="@+id/editTextBMBPinCode"
+        android:layout_width="340dp"
+        android:layout_height="53dp"
+        android:autofillHints=""
+        android:background="@drawable/input_bg"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/pin_code"
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/azure"
+        android:textColorHint="@color/beige"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_change_picture2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBAddress"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <!-- Phone Number EditText -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
