@@ -1,4 +1,4 @@
-WMP Project - Group 6
+WMP Project - Group 6 (IT 7)
 
 MedEase is a health application designed to provide ease in managing various healthcare needs on a single, integrated platform.
 
