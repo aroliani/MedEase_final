@@ -9,3 +9,5 @@ MedEase is a health application designed to provide ease in managing various hea
 - Doctors Appointment: Easily book appointments with doctors for expert medical guidance and consultations.
 - Order Details: Track and review orders for lab tests, medicines, or doctor appointments in one place, ensuring easy access to purchase history and appointment summaries.
 - Sensor: Phone will be vibrate whenever something near the sensor (near the camera or speaker)
+
+  hii aroliani munte
