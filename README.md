@@ -41,7 +41,7 @@ Here's the demo:
 
 ```md
 <p align="center">
-  <img src="demo/medease-demo.gif" alt="App Demo" width="300"/>
+  <img src="demo/MedEase_demo.gif" alt="App Demo" width="300"/>
 </p>
 ```
 
