@@ -40,7 +40,7 @@ It’s not perfect (some bugs here and there 👀), but it was fun to build and 
 Here's the demo:
 
 <p align="center">
-  <img src="demo/MedEase_Demo.mp4" alt="MedEase App Demo" width="300"/>
+  <img src="demo/MedEase_demo.gif" alt="MedEase App Demo" width="300"/>
 </p>
 
 ---
