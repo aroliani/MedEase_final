@@ -39,11 +39,11 @@ It’s not perfect (some bugs here and there 👀), but it was fun to build and 
 
 Here's the demo:
 
-```
 <p align="center">
-  <img src="demo/MedEase_demo.gif" alt="MedEase App Demo" width="300"/>
+  <a href="https://youtube.com/shorts/pzt9WM089Fs?feature=share" target="_blank">
+    <img src="https://img.youtube.com/vi/pzt9WM089Fs/0.jpg" alt="Watch MedEase Demo Video" width="350"/>
+  </a>
 </p>
-```
 
 ---
 
