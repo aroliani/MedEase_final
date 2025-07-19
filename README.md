@@ -1,11 +1,93 @@
-WMP Project - Group 6 (IT 7)
+# 📺 MedEase
 
-MedEase is a health application designed to provide ease in managing various healthcare needs on a single, integrated platform.
+**MedEase** is an Android app designed to make managing your medication routine… less of a chore and more of a breeze.
 
-- Profile: User's personal data information and camera for profile picture.
-- Lab Test Booking: Schedule lab tests from home for a quick and convenient experience.
-- Buy Medicine: Find a variety of medicines and healthcare products for easy, convenient access to essential health needs.
-- Health Articles: Browse a collection of health articles and health videos on various topics to stay updated on wellness.
-- Doctors Appointment: Easily book appointments with doctors for expert medical guidance and consultations.
-- Order Details: Track and review orders for lab tests, medicines, or doctor appointments in one place, ensuring easy access to purchase history and appointment summaries.
-- Sensor: Phone will be vibrate whenever something near the sensor (near the camera or speaker)
+---
+
+## 🚀 What Is MedEase?
+
+MedEase is a class project we made for our Wireless Mobile Programming course — basically a health app that *tries* to do a lot of cool things like booking lab tests, reading articles, and even buzzing your phone when you wave your hand.
+
+It’s not perfect (some bugs here and there 👀), but it was fun to build and explore Android Studio as a team.
+
+---
+
+## 🛠️ Tech & Tools
+
+| Component     | Tech Used                  |
+| ------------- | -------------------------- |
+| App Language  | Java / Kotlin              |
+| UI Framework  | Android SDK + Material UI  |
+| Data Storage  | SQLite & Firebase          |
+| Build Tool    | Android Studio (Gradle)    |
+
+---
+
+## ✨ Key Features
+
+1. **Profile** – Stores user info and lets you snap a profile pic using the camera.
+2. **Lab Test Booking** – Book your lab tests from home without going anywhere.
+3. **Buy Medicine** – A pretend pharmacy where you can “buy” meds and healthcare stuff.
+4. **Health Articles** – Scroll through health-related articles and videos for wellness tips.
+5. **Doctors Appointment** – Schedule appointments with doctors from the app.
+6. **Order Details** – View all your past orders and appointment history in one place.
+7. **Sensor** – Your phone will vibrate if something comes near the sensor (like near the speaker or camera). Spooky, right?
+
+---
+
+## 🧩 Getting Started
+
+1. `git clone https://github.com/aroliani/MedEase_final.git`
+2. Import the project in **Android Studio**.
+3. Let Gradle sync and build the app.
+4. Run it on your emulator or connected device.
+
+---
+
+## 📸 Sneak Peek
+
+Here's the demo:
+
+```md
+<p align="center">
+  <img src="demo/medease-demo.gif" alt="App Demo" width="300"/>
+</p>
+```
+
+---
+
+## ✨ Why We Built MedEase
+
+We've been inspired by how juggling meds in daily life can be… messy. So we wanted a small app that's **useful, clean, and painless** — because managing health shouldn’t be another hassle.
+
+---
+
+## 🧱 Future Enhancements
+
+* Add **customizable reminder tones** and **snooze options**
+* Support for **multiple user profiles**
+* Sync data to **cloud backup** (Firebase)
+* Multi-language UI (because medicine is universal)
+
+---
+
+## 👩‍💼 Usage
+
+| Action             | Description                                        |
+| ------------------ | -------------------------------------------------- |
+| Login/Register     | Users can login or register via email and password |
+| Profile Setup      | Upload profile picture using camera/gallery        |
+| Book Lab Tests     | Select and schedule available tests                |
+| Buy Medicine       | Browse and order medicines/products                |
+| Read Articles      | Access curated health articles and YouTube videos  |
+| Book Doctor        | Make appointments with doctors                     |
+| View Order Details | Track previous bookings and purchases              |
+| Sensor Feature     | Vibrates device when detecting motion near sensor  |
+
+---
+
+## 📄 License
+
+Made with ❤️ by WMP Project - Group 6 (IT 7) from President University.
+
+---
