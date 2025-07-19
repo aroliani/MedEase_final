@@ -51,15 +51,6 @@ We've been inspired by how juggling meds in daily life can be… messy. So we wa
 
 ---
 
-## 🧱 Future Enhancements
-
-* Add **customizable reminder tones** and **snooze options**
-* Support for **multiple user profiles**
-* Sync data to **cloud backup** (Firebase)
-* Multi-language UI (because medicine is universal)
-
----
-
 ## 👩‍💼 Usage
 
 | Action             | Description                                        |
