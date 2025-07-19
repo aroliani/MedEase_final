@@ -35,15 +35,6 @@ It’s not perfect (some bugs here and there 👀), but it was fun to build and 
 
 ---
 
-## 🧩 Getting Started
-
-1. `git clone https://github.com/aroliani/MedEase_final.git`
-2. Import the project in **Android Studio**.
-3. Let Gradle sync and build the app.
-4. Run it on your emulator or connected device.
-
----
-
 ## 📸 Sneak Peek
 
 Here's the demo:
