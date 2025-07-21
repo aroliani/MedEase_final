@@ -1,4 +1,4 @@
-# 📺 MedEase
+# 📺 MedEase: A Mobile Health Management Application
 
 **MedEase** is an Android app designed to make managing your medication routine… less of a chore and more of a breeze.
 
